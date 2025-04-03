@@ -1,0 +1,127 @@
+/*Estilos generales del cuerpo de la página*/
+body {
+    color: black;/*Define el color del texto*/
+    background-color:red;/* Establece el fondo de la página*/
+    margin: 0;/*Elimina los márgenes predeterminados del navegador*/
+    padding: 0;/*Elimina el relleno predeterminado del navegador*/
+}
+/*Sección CSS*/
+section.CSS {
+    background-color: black;/*Define el fondo de la sección*/
+    width: 80%;  /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    max-width: 1200px; /*Máximo ancho para mantener el diseño ordenado*/
+    margin: 20px auto; /*Centra la sección en la pantalla y agrega margen superior e inferior*/
+    padding: 20px; /*Espaciado interno para mejorar la apariencia*/
+    border-radius: 10px; /*Bordes redondeados para un mejor diseño*/
+    box-shadow: 0px 4px 8px white; /*Sombra para resaltar*/
+    color: white;/*Define el color del texto*/
+}
+/*Sección JavaScript*/
+section.JavaScript {
+    background-color: black;/*Define el fondo de la sección*/
+    width: 80%;  /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    max-width: 1200px; /*Máximo ancho para mantener el diseño ordenado*/
+    margin: 20px auto; /*Centra la sección en la pantalla y agrega margen superior e inferior*/
+    padding: 20px; /*Espaciado interno para mejorar la apariencia*/
+    border-radius: 10px; /*Bordes redondeados para un mejor diseño*/
+    box-shadow: 0px 4px 8px white; /*Sombra para resaltar*/
+    color: white;/*Define el color del texto*/
+}
+.Menu ul {
+    display: flex;/*Organiza los elementos en línea*/
+    padding: 0;/*Elimina el relleno predeterminado*/
+    margin: 0;/*Elimina los márgenes predeterminados*/
+    list-style: none;/*Elimina los estilos de lista*/
+    justify-content: center;/*Centra los elementos del menú*/
+    position: relative;/*Mantiene la estructura del menú*/
+    background-color: black;/*Color de fondo*/
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px white; /*Agrega una sombra para resaltar*/
+}
+/*Estilos de los enlaces del menú*/
+.Menu a {
+    display: block;/*Hace que el enlace ocupe todo el espacio disponible*/
+    padding: 10px 20px;/*Agrega relleno para mejorar la apariencia*/
+    background-color: black;/*Color de fondo*/
+    text-decoration: none;/*Elimina el subrayado*/
+    color:white;/*Color del texto*/
+    font-weight: bold;/*Hace el texto más grueso*/
+    transition: background 0.3s;/*Suaviza el cambio de color al pasar el cursor*/
+}
+/*Cambio de color al pasar el cursor por los enlaces del menú*/
+.Menu a:hover {
+    background-color: white;/*Fondo blanco al pasar el cursor*/
+    color:black;/*Texto negro al pasar el cursor*/
+}
+/*Estilos para los elementos del menú*/
+.Menu ul li {
+    position: relative;/*Permite la posición absoluta de los submenús*/
+    text-align: center;/*Centra el texto dentro de cada elemento*/
+}
+/*Estilos para los submenús*/
+.Menu ul li ul {
+    display: none;/*Oculta los submenús por defecto*/
+    position: absolute;/*Posiciona el submenú debajo del elemento principal*/
+    top: 100%;/*Asegura que el submenú aparezca justo debajo del elemento padre*/
+    left: 0;/*Alinea los submenús con sus elementos padres*/
+    padding: 0;/*Elimina el relleno*/
+    margin: 0;/*Elimina los márgenes*/
+    list-style: none;/*Elimina los estilos de lista*/
+    text-align: center;/*Centra el contenido*/
+    min-width: 150px;/*Define un ancho mínimo para los submenús*/
+    border-radius: 0 0 10px 10px;/*Redondea las esquinas inferiores*/
+    box-shadow: 0px 4px 8px black;/*Agrega una sombra para resaltar*/
+}
+/*Estilos para los elementos dentro de los submenús*/
+.Menu ul li ul li {
+    display: block;/*Hace que cada elemento ocupe una línea completa*/
+}
+
+.Menu ul li ul li a {
+    color: black;/*Color de texto negro*/
+    padding: 10px 20px; /*Agrega relleno para mejorar la apariencia*/
+}
+
+.CSS img, .JavaScript img{
+    width: 100px;
+    height: 100px;
+    border-radius: cover;
+    text-align: center;
+    margin: 0 auto;
+}   
+section.Tabla {
+    background-color: black;
+    width: 80%;  
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px white; 
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+section.Tabla {
+    overflow-x: auto;
+}
+ 
+footer {
+    background-color: black;
+    width: 80%;  
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px white; 
+    text-align:  center;
+    color: white;
+} 
